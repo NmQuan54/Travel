@@ -1,0 +1,51 @@
+.hboxpane{
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 0;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+}
+
+.body {
+    -fx-background-color: #B5B5B5;
+}
+.search {
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-border-radius: 15px;
+    -fx-border-style: solid;
+}
+.buttonHome {
+
+    -fx-background-color: transparent; /* Đặt nền trong suốt */
+    -fx-background-insets: 0; /* Loại bỏ padding nền */
+    -fx-padding: 0; /* Loại bỏ padding nội dung */
+    -fx-text-fill: black; /* Màu chữ */
+    -fx-font-size: 16px;
+    -fx-border-width: 0; /* Loại bỏ đường viền */
+}
+
+/*.buttonHome:hover {*/
+/*    -fx-background-color: #E8E8E8;*/
+/*}*/
+
+.button{
+    -fx-background-radius : 15 15 15 15;
+    -fx-background-color: transparent;
+}
+.button:hover {
+    -fx-background-color: #E8E8E8;
+}
+.date {
+
+}
+
+.gradient{
+    -fx-background-color: linear-gradient(to top, #676767,transparent);
+}
+
+/*.shadow{*/
+/*    -fx-effect: dropShawdow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 10);*/
+/*}*/
+
+

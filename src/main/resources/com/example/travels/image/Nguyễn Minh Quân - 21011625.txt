@@ -1,0 +1,28 @@
+1. what is an object?
+- object là những sự vật, sự việc mà nó có tính chất, thuộc tính, đặc điểm, đặc tính riêng của nó.
+
+2. where are the four principles of object orientation ?
+- 4 nguyên tắc:
++ tính đóng gói: là những tính chất của một đối tượng mà các đối tượng khác không thể trực tiếp tác động làm thay đổi tính chất mà chỉ có thể tác động phụ thuộc vào phạm vi truy cập của đối tượng đó như (private, protected, public). 
+
++ tính trừu tượng: là phương pháp trừu tượng hóa định nghĩa lên những hành động, tính chất của đối tượng nào đó bỏ qua các chi tiết . thay vào đó chúng ta chỉ tập trung cốt lõi cần thiết thay vì quan tâm sự phức tạp bên trong hoặc cách nó hoạt động. 
+
++ tính đa hình : là một đối tượng của các lớp khác nhau có thể hiểu cùng một thông điệp nhưng cách thực hiện lại có thể khác nhau. 
+
++ tính kế thừa : là khi chúng ta cải tiến chương trình bằng cách kể thừa từ những lớp cũ và phát triển thêm. ví dụ như lớp con sẽ kế thừa tất cả những thuộc tính mà lớp cha có, nhớ đó có thể mở rộng thêm những đăc tính của lớp con mà không cần định nghĩa lại.
+
+
+3. what is a class ? How are classes and objects related?
+class là một chương trình khuôn mẫu để từ đó có thể tạo nên các đối tượng, nó cung cấp các thuộc tính và phương thức cho đối tượng.
+
+4. What is an attribute? An operation?
+- attribute là đặc điểm hoặc tính chất của một dối tượng, cấu trúc dữ liệu hoặc lớp. Thuộc tính được sử dụng để lưu trữ và truy xuất thông tin về một thực thể.
+- operation là hành động có thể thực hiện trên 1 đối tượng hoặc cấu trúc dữ liệu. Đó là một hàm hoặc phương thức có thể sửa đổi các thuộc tính của đối tượng hoặc trả về kết quả nào đó .
+
+5. Define polymorphism. Provide an example of polymorphism
+- Đa hình: là các đối tượng của các lớp khác nhau có thể sử dụng các phương thức của 1 lớp cha chung, nhưng lại hoạt động theo cách riêng của chúng.
+ví dụ: 1 đối tượng cha là Animal có phương thức là "tiếng kêu"
+2 lớp con của chúng là Dog và Cat. khi cả 2 lớp con này đều gọi đến hàm tiếng kêu của cha nó, nó đều thực hiện được, nhưng với mỗi lớp con sẽ cho ra 1 kết quả riêng.
+
+6.What is generalization?
+- Khái quát hóa là tập hợp những cái chung của một loạt sự vật, hiện tượng. là một hình thức trừu tượng, theo đó các thuộc tính chung của các trường hợp cụ thể được coi là các khái niệm hoặc tuyên bố chung.

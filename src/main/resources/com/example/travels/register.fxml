@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="532.0" prefWidth="736.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Controller.RegisterController">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="500.0" prefWidth="700.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="386.0" layoutY="32.0" prefHeight="36.0" prefWidth="240.0" text="Create your account" textFill="#04000d">
+               <font>
+                  <Font name="System Bold Italic" size="25.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnSignup" layoutX="598.0" layoutY="407.0" mnemonicParsing="false" onAction="#onPressSignup" prefHeight="27.0" prefWidth="76.0" text="Sign Up" />
+            <PasswordField fx:id="txtRePassword" layoutX="410.0" layoutY="267.0" prefHeight="31.0" prefWidth="257.0" promptText="re-password" />
+            <Button fx:id="btBack" layoutX="636.0" layoutY="465.0" mnemonicParsing="false" onAction="#onClickBack" prefHeight="25.0" prefWidth="51.0" text="Back" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="636.0" AnchorPane.rightAnchor="13.0" />
+            <AnchorPane layoutX="-10.0" prefHeight="532.0" prefWidth="311.0" style="-fx-background-color: #33FFFF;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Text layoutX="72.0" layoutY="437.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TravelExplore">
+                     <fill>
+                        <RadialGradient centerX="0.5" centerY="0.5728155339805825" radius="0.5">
+                           <stops>
+                              <Stop color="#123936" />
+                              <Stop color="#ff253a" offset="1.0" />
+                           </stops>
+                        </RadialGradient>
+                     </fill>
+                     <font>
+                        <Font name="Bell MT Bold" size="27.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="267.0" fitWidth="269.0" layoutX="18.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/1000_F_432813585_3VV8wQ6fmEx6ADwnBGDBmmNGAHsY9Fm3.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <TextField fx:id="txtUsername" layoutX="410.0" layoutY="122.0" prefHeight="31.0" prefWidth="257.0" promptText="username" />
+            <PasswordField fx:id="txtPassword" layoutX="410.0" layoutY="191.0" prefHeight="31.0" prefWidth="257.0" promptText="password" />
+            <TextField fx:id="txtEmail" layoutX="410.0" layoutY="337.0" prefHeight="31.0" prefWidth="257.0" promptText="email" />
+            <ImageView fitHeight="38.0" fitWidth="37.0" layoutX="350.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/icons8-user-30.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="39.0" layoutX="350.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/icons8-secure-30.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="39.0" layoutX="350.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/icons8-secure-30.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="36.0" fitWidth="37.0" layoutX="351.0" layoutY="334.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/icons8-email-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

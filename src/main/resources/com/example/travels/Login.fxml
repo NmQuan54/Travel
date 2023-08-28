@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane prefHeight="532.0" prefWidth="736.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Controller.LoginController">
+   <children>
+      <Button fx:id="btnSignup" layoutX="463.0" layoutY="396.0" mnemonicParsing="false" onAction="#onClickSignup" prefHeight="31.0" prefWidth="149.0" text="Create An Account" />
+      <Label layoutX="424.0" layoutY="356.0" prefHeight="22.0" prefWidth="227.0" text="Do you already have an account?" />
+      <Label layoutX="475.0" layoutY="30.0" prefHeight="39.0" prefWidth="114.0" text="Welcome">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnLogin" layoutX="538.0" layoutY="307.0" mnemonicParsing="false" onAction="#onClickLogin" prefHeight="32.0" prefWidth="93.0" text="Login" />
+      <TextField fx:id="txtUsername" layoutX="424.0" layoutY="209.0" prefHeight="31.0" prefWidth="215.0" promptText="Username" />
+      <PasswordField fx:id="txtPassword" layoutX="425.0" layoutY="257.0" prefHeight="31.0" prefWidth="213.0" promptText="Password" />
+      <ImageView fitHeight="38.0" fitWidth="37.0" layoutX="382.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/icons8-user-30.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="38.0" fitWidth="39.0" layoutX="381.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/icons8-secure-30.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="425.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phần Mềm Gợi ý Địa Điểm Du Lịch" />
+      <AnchorPane layoutX="14.0" layoutY="7.0" prefHeight="500.0" prefWidth="351.0" style="-fx-background-color: #33FFFF;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="286.0" fitWidth="311.0" layoutX="27.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/1000_F_432813585_3VV8wQ6fmEx6ADwnBGDBmmNGAHsY9Fm3.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Text layoutX="82.0" layoutY="424.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TravelExplore">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5728155339805825" radius="0.5">
+               <stops>
+                  <Stop color="#123936" />
+                  <Stop color="#ff253a" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+         <font>
+            <Font name="Bell MT Bold" size="27.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
