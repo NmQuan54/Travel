@@ -44,8 +44,40 @@
     -fx-background-color: linear-gradient(to top, #676767,transparent);
 }
 
-/*.shadow{*/
-/*    -fx-effect: dropShawdow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 10);*/
-/*}*/
+.image{
+    background-image: url('image/istockphoto-924437708-612x612.jpg'); /* Đường dẫn đến hình ảnh kính lúp */
+    background-size: cover; /* Kích thước hình ảnh làm nền */
+    width: 20px; /* Kích thước chiều rộng */
+    height: 20px; /* Kích thước chiều cao */
+    display: inline-block; /* Hiển thị biểu tượng trên cùng dòng với văn bản */
+    margin-right: 5px; /* Khoảng cách giữa biểu tượng và văn bản */
+}
+.background {
+    -fx-background-image: url('image/pexels-pixabay-460672.jpg');
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+.blur-background {
+    -fx-background-color: rgba(0, 0, 0, 0.3); /* Màu nền mờ với độ trong suốt */
+    /*-fx-effect: blur(10px); !* Hiệu ứng mờ *!*/
+}
+/* login.css */
+.login-textfield {
+    -fx-background-color: transparent;
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: #ccc;
+    -fx-prompt-text-fill: #FFFFFF;
+    -fx-text-inner-color: #FFFFFF; /* Đặt màu văn bản khi nhập */
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+    -fx-font-weight: bold; /* Đặt độ đậm của chữ */
+}
+
+
+.login-textfield:focused {
+    -fx-border-color: #007bff; /* Đổi màu viền dưới khi TextField được focus */
+}
+
 
 
