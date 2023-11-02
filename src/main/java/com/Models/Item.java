@@ -5,7 +5,7 @@ public class Item {
     private String imgsrc;
 
     public Item() {
-        // Không cần thiết phải gán name và imgsrc trong constructor này
+
     }
 
     public String getImgsrc() {
